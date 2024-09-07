@@ -55,7 +55,7 @@ const Chat = () => {
             <MessageSquareMore className="h-8 w-8 text-white " fill='#B2B2B2'  />
           </Button>
         </DropdownMenuTrigger>
-        <DropdownMenuContent className="min-w-[300px] rounded-md" align="end">
+        <DropdownMenuContent className="min-w-[300px] rounded-md" align="center">
           <div className='w-full min-h-80 p-4 border rounded-sm flex flex-col justify-between items-center bg-[#f0f0f0]'>
             <div className='w-full h-full flex flex-col justify-start items-center gap-2'>
                 {!messages.length && <span className='text-base text-center'>No messages</span>}

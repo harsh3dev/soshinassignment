@@ -1,11 +1,13 @@
 import Dashboard from "./components/Dashboard";
-import Sidebar from "./components/Sidebar";
+import MobileSideBar from "./components/MobileSideBar";
+import SideBarComponent from "./components/SideBarComponent";
 
 export default function Home() {
+
   return (
-    <main className="flex min-h-screen items-start justify-start w-full">
-      <div className="hidden md:block"><Sidebar/></div>
-      
+    <main className=" relative flex min-h-screen items-start justify-start w-full">
+      <div className=" hidden sm:block " ><SideBarComponent/></div>
+      <MobileSideBar/>
       <Dashboard/>      
     </main>
   );

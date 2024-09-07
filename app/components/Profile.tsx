@@ -1,4 +1,3 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import {
@@ -23,7 +22,7 @@ const Profile = () => {
             </div>
             <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                    <Button variant="ghost" className="h-8 w-8 p-0">
+                    <Button variant="ghost" className="h-6 ml-0 w-6 p-0 space-x-0 ">
                         <ChevronDown className="h-6 w-6 text-[#737898]" />
                         <span className="sr-only">Open menu</span>
                     </Button>
